@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Covers photos taken by the camera (saved to getExternalFilesDir(PICTURES))
+        and CSV files saved to getExternalFilesDir(DOCUMENTS).
+        This matches exactly what AddExpenseActivity and SettingsActivity use.
+    -->
+    <external-files-path
+        name="my_images"
+        path="Pictures/" />
+
+    <external-files-path
+        name="my_documents"
+        path="Documents/" />
+
+    <!--
+        Fallback: covers any file in the app's external files root.
+    -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+</paths>

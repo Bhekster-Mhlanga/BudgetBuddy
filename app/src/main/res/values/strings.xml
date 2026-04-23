@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BudgetBuddy</string>
+    <string name="photo_attached">📎 Photo attached</string>
+    <string name="no_photo_attached">No photo attached</string>
+
+    <!-- Spending Graph screen -->
+    <string name="back_arrow">←</string>
+    <string name="spending_graph_title">Spending Graph</string>
+    <string name="calendar_emoji">📅</string>
+    <string name="tab_daily">Daily</string>
+    <string name="tab_by_category">By Category</string>
+    <string name="chart_title">Spending by Category</string>
+    <string name="chart_subtitle">Track your spending by category over time</string>
+    <string name="legend_scroll_description">Category legend</string>
+    <string name="goal_emoji">🎯</string>
+    <string name="total_spent_label">Total Spent</string>
+
+    <!-- Budget Goals screen -->
+    <string name="budget_dollar_sign">$</string>
+    <string name="monthly_budget_label">Monthly Budget</string>
+    <string name="budget_hint">e.g. 5000.00</string>
+    <string name="autofill_currency">currencyAmount</string>
+    <string name="save_budget_btn">⊕  SAVE BUDGET</string>
+    <string name="save_category_prefix">⊕  SAVE </string>
+    <string name="budget_goal_info">Set a Min (minimum expected) and Max (spending limit) for each category. These appear as goal lines on your spending graph.</string>
+    <string name="per_category_goals_title">Per-Category Goals</string>
+    <string name="per_category_goals_subtitle">Set spending targets for each category</string>
+</resources>
