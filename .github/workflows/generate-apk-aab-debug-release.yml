@@ -7,7 +7,7 @@ env:
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
   workflow_dispatch:
 
 jobs:
@@ -28,13 +28,10 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
-          cache: 'gradle'
 
       - name: Change wrapper permissions
         run: chmod +x ./gradlew
 
-      # Skipping instrumented tests as they require a device/emulator
-      # Only running unit tests
       - name: Run gradle unit tests
         run: ./gradlew test
 
